@@ -1,15 +1,20 @@
 .nav-cont {
-  background-color: var(--primitive-700);
+  /* background-color: rgba(15, 23, 43, 0.6); */
+  background-color: var(--primitive-900);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: var(--primitive-400);
 
-  border: 1px solid var(--primitive-500);
+  border: 0.5px solid var(--primitive-700);
+  /* outline: thin solid var(--primitive-500); */
+  
   border-radius: var(--border-radius-3) var(--border-radius-3) 0 0;
 
-  height: max-content;
+  height:max-content;
 }
 
 .nav-name {
