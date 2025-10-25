@@ -8,6 +8,18 @@ const Home = () => {
         <div className="home-container">
 
 
+            <div className="home-left">
+
+            </div>
+
+
+
+            <div className="home-right">
+
+
+            </div>
+
+
 
         </div>
 
