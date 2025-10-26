@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div class="stripes"></div>
+
       <div className='main-container'>
         <Navbar />
         <Home />
