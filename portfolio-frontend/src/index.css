@@ -1,1 +1,17 @@
 @import './assets/styles/global.css';
+
+
+.main-container {
+  
+ 
+  /* display: flex; */
+  flex-direction: column;
+
+  height:calc(100vh - 70px);
+
+  position: relative;
+  z-index: 1; /* below stripes */
+}
+
+
+

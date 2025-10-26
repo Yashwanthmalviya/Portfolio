@@ -1,62 +1,64 @@
-.nav-cont{
-    background-color: var(--primitive-700);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--primitive-400);
+.nav-cont {
+  background-color: var(--primitive-900);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primitive-400);
 
-   border: 1px solid var(--primitive-500);
-    border-radius: var(--border-radius-3) var(--border-radius-3) 0 0;
-    
-    height: max-content;
+  border: 1px solid var(--primitive-700);
+  
 
+  
+  border-radius: var(--border-radius-3) var(--border-radius-3) 0 0;
+
+  height:max-content;
 }
 
-.nav-name{
-    padding: var(--spacing-5) var(--spacing-6);
-    /* border-right: 1px solid var(--primitive-500); */
+.nav-name {
+  padding: var(--spacing-5) var(--spacing-6);
+  
 }
 
-.nav-left{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 128px;
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 128px;
 }
 
-.nav-contact{
-    padding: var(--spacing-5) var(--spacing-7);
-    border-left: 1px solid var(--primitive-500);
-
+.nav-contact {
+  padding: var(--spacing-5) var(--spacing-7);
+  border-left: 1px solid var(--primitive-500);
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s, color 0.3s;
 }
 
-.nav-contact:hover{
-     color: var(--primitive-50);
-    border-bottom: 3px solid var(--orange-300);
-
+.nav-contact:hover {
+  color: var(--primitive-50);
+  border-bottom: 3px solid var(--orange-300);
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
 
-ul{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style: none;
-    
-    font-size: var(--font-size-2);
-    
+  font-size: var(--font-size-2);
 }
 
-li{
-    padding: var(--spacing-5) var(--spacing-7);
-    border-left: 1px solid var(--primitive-500);
-    border-right: 1px solid var(--primitive-500);
+li {
+  padding: var(--spacing-5) var(--spacing-7);
+  border-left: 1px solid var(--primitive-500);
+  border-right: 1px solid var(--primitive-500);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s, color 0.3s;
 }
 
-
-li:hover{
-    
-    color: var(--primitive-50);
-    border-bottom: 3px solid var(--orange-300);
+li:hover {
+  color: var(--primitive-50);
+  border-bottom: 3px solid var(--orange-300);
 }
